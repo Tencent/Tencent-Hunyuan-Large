@@ -44,6 +44,7 @@
 
 * 2024.11.5 我们在Hugging Face开源了**Hunyuan-A52B-Pretrain** 、 **Hunyuan-A52B-Instruct** 和**Hunyuan-A52B-Instruct-FP8**。并发布了技术报告和训练推理操作手册，详细介绍了模型能力和训练与推理的操作。
 <br>
+
 ## Benchmark评估榜单 
 
 **Hunyuan-Large 预训练模型**与具有相似激活参数大小的Dense和MoE竞争对手相比，实现了最佳的整体性能。
