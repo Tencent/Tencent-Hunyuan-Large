@@ -33,8 +33,8 @@ By open-sourcing the Hunyuan-Large model and revealing related technical details
 
 - **Extensive Benchmarking**: Conducts extensive experiments across various languages and tasks to validate the practical effectiveness and safety of Hunyuan-Large.
 
-#### inference Framework
-- This open-source release offers two inference backend options tailored for the Hunyuan-Large model: the popular vLLM-backend and the TRT-LLM-backend. Both solutions include optimizations for enhanced performance. For instance, the introduction of a new CLA structure significantly reduces GPU memory usage, achieving a 50% savings in the KV-Cache portion, which ensures efficient handling of long text scenarios. Additionally, by employing FP8 quantization, we achieve a 50% reduction in memory usage compared to traditional FP16/BF16 quantization, while maintaining precision and resulting in a 70% increase in throughput. Meanwhile, by leveraging the efficient operators at the core of TRT-LLM, the performance of the TRT-LLM solution surpasses that of vLLM by over 30%. The TRT-LLM solution is widely used in Tencent's Hunyuan project. In this release, we are initially open-sourcing the vLLM solution, with plans to release the TRT-LLM solution in the near future.
+#### Inference Framework
+- This open-source release offers two inference backend options tailored for the Hunyuan-Large model: the popular [vLLM-backend](https://github.com/quinnrong94/vllm/tree/dev_hunyuan) and the TensorRT-LLM Backend. Both solutions include optimizations for enhanced performance. For instance, the introduction of a new CLA structure significantly reduces GPU memory usage, achieving a 50% savings in the KV-Cache portion, which ensures efficient handling of long text scenarios. Additionally, by employing FP8 quantization, we achieve a 50% reduction in memory usage compared to traditional FP16/BF16 quantization, while maintaining precision and resulting in a 70% increase in throughput. Meanwhile, by leveraging the efficient operators at the core of TRT-LLM, the performance of the TRT-LLM solution surpasses that of vLLM by over 30%. The TRT-LLM solution is widely used in Tencent's Hunyuan project. In this release, we are initially open-sourcing the vLLM solution, with plans to release the TRT-LLM solution in the near future.
 
 #### Training Framework
 
@@ -300,7 +300,7 @@ The saved LoRA weights cannot be merged into the zero3 model during training bec
 
 ## Inference and Deployment
 
-HunyuanLLM uses TRT-LLM and vLLM for deployment. We are open sourcing the vLLM deployment (see Reasoning with vLLM), and the TRT-LLM deployment (see Reasoning with TRT-LLM) will be available in the near future.
+HunyuanLLM uses TRT-LLM and vLLM for deployment. We are open sourcing the [vLLM-backend](https://github.com/quinnrong94/vllm/tree/dev_hunyuan) deployment (see Reasoning with vLLM), and the TRT-LLM deployment (see Reasoning with TRT-LLM) will be available in the near future.
 
 ## Using TRT-LLM for Inference
 
