@@ -8,10 +8,41 @@
 </p><p></p>
 
 <p align="center">
-    🫣&nbsp<a href="https://huggingface.co/tencent/Tencent-Hunyuan-Large"><b>Hugging Face</b></a>&nbsp&nbsp |  &nbsp&nbsp🖥️&nbsp&nbsp<a href="https://llm.hunyuan.tencent.com/" style="color: red;"><b>官网</b></a>&nbsp&nbsp｜&nbsp&nbsp🕖&nbsp&nbsp <a href="https://cloud.tencent.com/product/hunyuan" ><b>混元API</b></a>｜&nbsp&nbsp🐳&nbsp&nbsp <a href="https://gitee.com/Tencent/Tencent-Hunyuan-Large" ><b>Gitee</b></a>
+    🫣&nbsp<a href="https://huggingface.co/tencent/Tencent-Hunyuan-Large"><b>Hugging Face</b></a>&nbsp&nbsp |  &nbsp&nbsp🖥️&nbsp&nbsp<a href="https://llm.hunyuan.tencent.com/" style="color: red;"><b>官网</b></a>&nbsp&nbsp｜&nbsp&nbsp🕖&nbsp&nbsp <a href="https://cloud.tencent.com/product/hunyuan" ><b>混元API</b></a>｜&nbsp&nbsp🐳&nbsp&nbsp <a href="https://cnb.cool/tencent/hunyuan" ><b>cnb.cool</b></a>
 </p><p align="center">
     <a href="https://arxiv.org/abs/2411.02265" style="color: red;"><b>技术报告</b></a>&nbsp&nbsp｜&nbsp&nbsp <a href="https://huggingface.co/spaces/tencent/Hunyuan-Large"><b>Demo</b></a>&nbsp&nbsp&nbsp｜&nbsp&nbsp <a href="https://cloud.tencent.com/document/product/851/112032" style="color: red;"><b>Tencent Cloud TI</b></a>&nbsp&nbsp&nbsp</p>
+<p><br></p>
+<p>
+    <table align="center">
+        <tbody>
+            <tr>
+                <td align="center" colspan="3"><strong>Download Models</strong></td>
+            </tr>
+            <tr>
+                <td align="center" style="width: 100px;" >Models</td>
+                <td align="center" style="width: 500px;">Huggingface Download URL</td>
+                <td align="center" style="width: 500px;">cnb.cool Download URL</td>
+            </tr>
+            <tr>
+                <td style="width: 100px;">Hunyuan-A52B-Instruct-FP8</td>
+                <td style="width: 500px;"><a href="https://huggingface.co/tencent/Tencent-Hunyuan-Large/tree/main/Hunyuan-A52B-Instruct-FP8" style="color: red;">Hunyuan-A52B-Instruct-FP8</a></td>
+                <td style="width: 500px;"><a href="https://cnb.cool/tencent/hunyuan/Hunyuan-A52B-Instruct-FP8.git" style="color: red;">Hunyuan-A52B-Instruct-FP8</a></td>
+            </tr>
+            <tr>
+                <td style="width: 100px;">Hunyuan-A52B-Instruct</td>
+                <td style="width: 500px;"><a href="https://huggingface.co/tencent/Tencent-Hunyuan-Large/tree/main/Hunyuan-A52B-Instruct" style="color: red;">Hunyuan-A52B-Instruct</a></td>
+                <td style="width: 500px;"><a href="https://cnb.cool/tencent/hunyuan/Hunyuan-A52B-Instruct.git" style="color: red;">Hunyuan-A52B-Instruct</a></td>
+            </tr>
+            <tr>
+                <td style="width: 100px;">Hunyuan-A52B-Pretrain</td>
+                <td style="width: 500px;"><a href="https://huggingface.co/tencent/Tencent-Hunyuan-Large/tree/main/Hunyuan-A52B-Pretrain" style="color: red;">Hunyuan-A52B-Pretrain</a></td>
+                <td style="width: 500px;"><a href="https://cnb.cool/tencent/hunyuan/Hunyuan-A52B-Pretrain.git" style="color: red;">Hunyuan-A52B-Pretrain</a></td>
+            </tr>
+        </tbody>
+    </table>
+</p>
 
+<p></p>
 
 
 ## 模型介绍
@@ -22,7 +53,7 @@
 
 ### 技术优势介绍
 
-#### 模型  
+#### 模型
 - **高质量合成数据**：通过合成数据增强训练，Hunyuan-Large能够学习到更丰富的表示，处理长上下文输入，并更好地泛化到未见数据
 
 - **KV缓存压缩**：采用分组查询注意力（GQA）和跨层注意力（CLA）策略，显著减少了KV缓存的内存占用和计算开销，提高了推理吞吐
@@ -42,14 +73,14 @@
 &nbsp;
 
 ## 新闻
-* 2024.11.25 我们自主开发的长上下文评估集——PenguinScrolls，已经正式发布！详见[GitHub](https://github.com/Penguin-Scrolls/PenguinScrolls)和 [Hugging Face](https://huggingface.co/datasets/Penguin-Scrolls/PenguinScrolls)。  
+* 2024.11.25 我们自主开发的长上下文评估集——PenguinScrolls，已经正式发布！详见[GitHub](https://github.com/Penguin-Scrolls/PenguinScrolls)和 [Hugging Face](https://huggingface.co/datasets/Penguin-Scrolls/PenguinScrolls)。
 * 2024.11.20 **Hunyuan-A52B-Instruct** 和**Hunyuan-A52B-Instruct-FP8**模型权重更新。
 * 2024.11.5 [TI平台](https://cloud.tencent.com/product/ti) 已经集成了Hunyuan-Large模型，您只需几步即可轻松进行训练和部署。访问 [Chat with Hunyuan-Large](https://console.cloud.tencent.com/tione/v2/aimarket/detail/hunyuan_series?PublicAlgoGroupId=hunyuan-large-chat&detailTab=demo) 与模型的实时对话，并在TI上探索 [Hunyuan-Large Best Practice on TI](https://cloud.tencent.com/document/product/851/112032) 并创建自己的定制化Hunyuan-Large。
 * 2024.11.5 我们在Hugging Face开源了**Hunyuan-A52B-Pretrain** 、 **Hunyuan-A52B-Instruct** 和**Hunyuan-A52B-Instruct-FP8**。并发布了技术报告和训练推理操作手册，详细介绍了模型能力和训练与推理的操作。
 <br>
 
 
-## Benchmark评估榜单 
+## Benchmark评估榜单
 
 **Hunyuan-Large 预训练模型**与具有相似激活参数大小的Dense和MoE竞争对手相比，实现了最佳的整体性能。
 对于MMLU、MMLU-pro、CMMLU等基准评测，Hunyuan-Large的性能始终保持在最佳水准，证实了它在聚合任务上的综合能力。
@@ -109,7 +140,7 @@ Hunyuan-Large在常识理解和推理以及经典的NLP任务，如QA和阅读�
 
 Hunyuan-Large提供了模型训练相关流程，您可以在此章节对训练数据格式进行处理以供模型训练使用。
 
-### 训练数据格式及处理 
+### 训练数据格式及处理
 
 训练数据按照以下形式处理为messages格式，训练和推理的默认system prompt为"You are a helpful assistant."，以下分别为单轮数据和多轮数据样例：
 
@@ -148,7 +179,7 @@ ids = tokenizer.apply_chat_template(messages)
 
 您可以参照<a href="examples/README.md">快速开始文档</a>中的内容进行快速上手。
 
-## 模型训练 
+## 模型训练
 
 为了简化部署过程，HunyuanLLM提供了预构建docker镜像：
  [hunyuaninfer/hunyuan-large](https://hub.docker.com/repository/docker/hunyuaninfer/hunyuan-large/general) 。
@@ -256,7 +287,7 @@ Are you sure you want to continue connecting (yes/no)?
 **注意：**
 
 - 如果想从一个中途保存的 ckpt 继续训练，而不是加载一个预训练的权重，直接指定`--resume_from_checkpoint`为之前训练保存的 ckpt 路径，不要指定`--model_name_or_path`，这样只会加载权重，而不会加载训练状态
-- 从 ckpt 继续训练时，loss 可能会有微小的偏差，这是由一些非确定性算法带来的随机性，是正常现象。参考：[HuggingFace Transformers Trainer Randomness 
+- 从 ckpt 继续训练时，loss 可能会有微小的偏差，这是由一些非确定性算法带来的随机性，是正常现象。参考：[HuggingFace Transformers Trainer Randomness
 - 当 `--model_name_or_path` 有效时，所有模型相关的参数都会被忽略
 - 一个 batch 内的样本会通过 padding 对齐 batch 内最长的样本，而每条样本的长度最长为 max_seq_length，超出的部分会被裁剪
 - 如果报出 bias 权重没有 load 的 warning，忽略即可，Hunyuan-Large 中不会用到 bias
@@ -284,7 +315,7 @@ Are you sure you want to continue connecting (yes/no)?
 
 &nbsp;
 
-## 推理和部署 
+## 推理和部署
 
 HunyuanLLM支持TRT-LLM和vLLM两种部署方式。本次我们开源vLLM部署方式(详见'使用vLLM推理'章节)，TRT-LLM部署方式(详见'使用TRT-LLM推理'章节)将在近期开放。
 
@@ -352,7 +383,7 @@ ray start --block  --head --node-ip-address=${LOCAL_IP} --port=6379
 export VLLM_HOST_IP=${LOCAL_IP}
 export NCCL_SOCKET_IFNAME=bond1
 export GLOO_SOCKET_IFNAME=bond1
-ray start --block --address={主节点$LOCAL_IP}:6379  --node-ip-address=${LOCAL_IP} 
+ray start --block --address={主节点$LOCAL_IP}:6379  --node-ip-address=${LOCAL_IP}
 ```
 如果启动ray失败，执行`ray stop`后再次执行上述命令。
 
@@ -503,12 +534,12 @@ HunYuan-Large模型中采用的tokenizer平衡了压缩率和效果两个因素�
 ## 混元API
 您可以在腾讯云体验我们的hunyuan-large模型，具体请见：https://cloud.tencent.com/document/product/1729/97730。
 
-## 交互式Demo Web 
+## 交互式Demo Web
 Hunyuan-Large现已开放网页demo。访问 https://huggingface.co/spaces/tencent/Hunyuan-Large 即可简单体验我们的模型。
 
 <br>
 
-## 使用TI训练/推理 
+## 使用TI训练/推理
 腾讯云的 [TI平台](https://cloud.tencent.com/product/ti) 是专门为AI工程师设计的全面的机器学习平台。通过集成Hunyuan-Large模型，您只需几步即可轻松进行训练和部署。访问 [Chat with Hunyuan-Large](https://console.cloud.tencent.com/tione/v2/aimarket/detail/hunyuan_series?PublicAlgoGroupId=hunyuan-large-chat&detailTab=demo) 模块，体验与模型的实时对话，并在TI上探索 [Hunyuan-Large Best Practice](https://cloud.tencent.com/document/product/851/112032) ，创建自己的定制Hunyuan-Large模型。
 
 ## 引用
@@ -516,13 +547,13 @@ Hunyuan-Large现已开放网页demo。访问 https://huggingface.co/spaces/tence
 
 ```
 @misc{sun2024hunyuanlargeopensourcemoemodel,
-      title={Hunyuan-Large: An Open-Source MoE Model with 52 Billion Activated Parameters by Tencent}, 
+      title={Hunyuan-Large: An Open-Source MoE Model with 52 Billion Activated Parameters by Tencent},
       author={Xingwu Sun and Yanfeng Chen and Yiqing Huang and Ruobing Xie and Jiaqi Zhu and Kai Zhang and Shuaipeng Li and Zhen Yang and Jonny Han and Xiaobo Shu and Jiahao Bu and Zhongzhi Chen and Xuemeng Huang and Fengzong Lian and Saiyong Yang and Jianfeng Yan and Yuyuan Zeng and Xiaoqin Ren and Chao Yu and Lulu Wu and Yue Mao and Tao Yang and Suncong Zheng and Kan Wu and Dian Jiao and Jinbao Xue and Xipeng Zhang and Decheng Wu and Kai Liu and Dengpeng Wu and Guanghui Xu and Shaohua Chen and Shuang Chen and Xiao Feng and Yigeng Hong and Junqiang Zheng and Chengcheng Xu and Zongwei Li and Xiong Kuang and Jianglu Hu and Yiqi Chen and Yuchi Deng and Guiyang Li and Ao Liu and Chenchen Zhang and Shihui Hu and Zilong Zhao and Zifan Wu and Yao Ding and Weichao Wang and Han Liu and Roberts Wang and Hao Fei and Peijie She and Ze Zhao and Xun Cao and Hai Wang and Fusheng Xiang and Mengyuan Huang and Zhiyuan Xiong and Bin Hu and Xuebin Hou and Lei Jiang and Jiajia Wu and Yaping Deng and Yi Shen and Qian Wang and Weijie Liu and Jie Liu and Meng Chen and Liang Dong and Weiwen Jia and Hu Chen and Feifei Liu and Rui Yuan and Huilin Xu and Zhenxiang Yan and Tengfei Cao and Zhichao Hu and Xinhua Feng and Dong Du and Tinghao She and Yangyu Tao and Feng Zhang and Jianchen Zhu and Chengzhong Xu and Xirui Li and Chong Zha and Wen Ouyang and Yinben Xia and Xiang Li and Zekun He and Rongpeng Chen and Jiawei Song and Ruibin Chen and Fan Jiang and Chongqing Zhao and Bo Wang and Hao Gong and Rong Gan and Winston Hu and Zhanhui Kang and Yong Yang and Yuhong Liu and Di Wang and Jie Jiang},
       year={2024},
       eprint={2411.02265},
       archivePrefix={arXiv},
       primaryClass={cs.CL},
-      url={https://arxiv.org/abs/2411.02265}, 
+      url={https://arxiv.org/abs/2411.02265},
 }
 ```
 <br>
