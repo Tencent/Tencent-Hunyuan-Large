@@ -415,7 +415,8 @@ Note: vLLM Component Remote Code Execution Protection. In the code below, if the
 
 ```python
 import os
-from vllm import LLM, SamplingParams
+from vllm.entrypoints.llm import LLM
+from vllm.sampling_params import SamplingParams
 
 model_path=os.environ.get('MODEL_PATH')
 
