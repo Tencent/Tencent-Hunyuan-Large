@@ -298,7 +298,7 @@ The key parameters in the script are as follows:
 - `--train_attention_params_only`: Whether to train only the attention parameters.
 - `--learning_rate`: The maximum learning rate during training.
 - `--min_lr`: The minimum learning rate during training.
-- `--use_flash_attn`: 开启 flash-attention 进行训练加速
+- `--use_flash_attn`: Enable flash-attention to accelerate training.
 
 **Note:**
 
